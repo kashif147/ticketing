@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "type": "chrome",
+      "name": "auth.dev/api/users/signup/oooo",
+      "request": "launch",
+      "url": "auth.dev/api/users/signup/oooo"
+    }
+  ]
+}
