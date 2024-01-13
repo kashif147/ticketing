@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: orders
-          image: kashif147/orders
+          image: creativelab147/orders
           env:
             - name: NATS_CLIENT_ID
               valueFrom:
