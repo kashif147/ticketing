@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: payments
-          image: kashif147/payments
+          image: creativelab147/payments
           env:
             - name: NATS_CLIENT_ID
               valueFrom:

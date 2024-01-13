@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: kashif147/client
+          image: creativelab147/client
 ---
 apiVersion: v1
 kind: Service

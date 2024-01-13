@@ -8,7 +8,7 @@ build:
   local:
     push: false
   artifacts:
-    - image: kashif147/auth
+    - image: creativelab147/auth
       context: auth
       docker:
         dockerfile: Dockerfile
@@ -16,7 +16,7 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
-    - image: kashif147/client
+    - image: creativelab147/client
       context: client
       docker:
         dockerfile: Dockerfile
@@ -24,7 +24,7 @@ build:
         manual:
           - src: '**/*.js'
             dest: .
-    - image: kashif147/tickets
+    - image: creativelab147/tickets
       context: tickets
       docker:
         dockerfile: Dockerfile
@@ -32,7 +32,7 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
-    - image: kashif147/orders
+    - image: creativelab147/orders
       context: orders
       docker:
         dockerfile: Dockerfile
@@ -40,7 +40,7 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
-    - image: kashif147/expiration
+    - image: creativelab147/expiration
       context: expiration
       docker:
         dockerfile: Dockerfile
@@ -48,7 +48,7 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
-    - image: kashif147/payments
+    - image: creativelab147/payments
       context: payments
       docker:
         dockerfile: Dockerfile
